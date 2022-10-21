@@ -1,6 +1,7 @@
 package pdf_39
 
-// falta poner comentario
+// en esta practica vemos como podemos acceder a las variables externas en este caso el array, con expresiones lambda,usando
+// it
 
 fun main(args: Array<String>) {
     var vector = IntArray(10) { (Math.random() * 99).toInt() }
